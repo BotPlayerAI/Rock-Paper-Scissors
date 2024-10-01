@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.rock-paper-scissors {
+  width: 500px;
+  height: 260px;
+  padding: 50p;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 100px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 25px;
+}
+
+.buttons {
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  padding: 8px;
+  border: none;
+  border-radius: 5px;
+  font-size: 48px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+button#rock {
+  background-color: rgb(204, 141, 24);
+}
+
+button#paper {
+  background-color: red;
+}
+
+button#scissors {
+  background-color: green;
+}
+
+#user-move {
+  color: green;
+}
+
+#computer-move {
+  color: red;
+}
